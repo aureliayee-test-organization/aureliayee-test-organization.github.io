@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="images/favicons/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>About Purrfect Vibes</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="js/scripts.js" defer></script>
+</head>
+<body class="about">
+    <header>
+        <div class="container">
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <input type="checkbox" class="navToggler" id="navToggler">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="features.html">Features</a>
+                        <ul class="sub-menu">
+                            <li><a href="features.html#cat-care">Cat Care</a></li>
+                            <li><a href="features.html#quizzes">Quizzes</a></li>
+                            <li><a href="features.html#community">Community</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="community.html">Community</a></li>
+                    <li><a href="contact.html" class="button">Contact</a></li>
+                </ul>
+            </nav>
+            <label for="navToggler" class="navTogglerMenu" name="navToggler">
+                <img src="images/menu.svg" class="menuOpen" alt="menu">
+                <img src="images/x.svg" class="menuClose" alt="close">
+            </label>
+        </div>
+    </header>
+    <section class="title">
+        <div class="container">
+            <h1>About Us</h1>
+        </div>
+    </section>
+    <section class="container">
+        <div class="overview-container">
+            <div>
+                <h2>Company Overview</h2>
+                <p>At Purrfect Vibes, we're dedicated to creating a pawsitive impact for cat lovers everywhere. By combining creative innovation with heartfelt passion, we deliver engaging and community-focused solutions for feline enthusiasts, empowering them to enhance the well-being of their furry companions.</p>
+            </div>
+            <div>
+                <div class="video-container"><iframe src="https://www.youtube.com/embed/sI8NsYIyQ2A?si=wf94BvNOsV6cx9m4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            </div>
+        </div>
+    </section>      
+    <section>
+        <div class="light-grey-bg">
+            <h2>Our Team</h2>
+            <div class="about-container container">
+                <!-- Agnes -->
+                <div class="about-block">
+                    <a href="#agnes-modal" class="modal-trigger" data-target="agnes-modal">
+                        <img src="images/head-agnes.png" alt="Agnes" />
+                        <p>
+                            <strong>Agnes</strong><br>
+                            <em>Feline Nutrition Specialist</em>
+                        </p>
+                    </a>
+                </div>
+                <!-- Damon -->
+                <div class="about-block">
+                    <a href="#damon-modal" class="modal-trigger" data-target="damon-modal">
+                        <img src="images/head-damon.png" alt="Damon" />
+                        <p>
+                            <strong>Damon</strong><br>
+                            <em>Director of Feline Enrichment</em>
+                        </p>
+                    </a>
+                </div>
+                <!-- Herbert -->
+                <div class="about-block">
+                    <a href="#herbert-modal" class="modal-trigger" data-target="herbert-modal">
+                        <img src="images/head-herbert.png" alt="Herbert" />
+                        <p>
+                            <strong>Herbert</strong><br>
+                            <em>Chief Wellness Officer</em>
+                        </p>
+                    </a>
+                </div>
+                <!-- Mike -->
+                <div class="about-block">
+                    <a href="#mike-modal" class="modal-trigger" data-target="mike-modal">
+                        <img src="images/head-mike.png" alt="Mike" />
+                        <p>
+                            <strong>Mike</strong><br>
+                            <em>Vice President of Cat Content</em>
+                        </p>
+                    </a>
+                </div>
+                <!-- Ferris -->
+                <div class="about-block">
+                    <a href="#ferris-modal" class="modal-trigger" data-target="ferris-modal">
+                        <img src="images/head-ferris.png" alt="Ferris" />
+                        <p>
+                            <strong>Ferris</strong><br>
+                            <em>Founder and CEO</em>
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Modals -->
+        <div id="agnes-modal" class="modal">
+            <div class="modal-content">
+                <h3>Agnes</h3>
+                <p>
+                    Agnes brings a wealth of expertise in feline dietary health, helping cat owners make informed decisions about their pets' nutrition.
+                </p>
+                <a href="#" class="close-btn"><i class="fa-solid fa-xmark"></i></a>
+            </div>
+        </div>
+        <div id="damon-modal" class="modal">
+            <div class="modal-content">
+                <h3>Damon</h3>
+                <p>
+                    Damon leads the way in creating engaging and enriching content for both cats and their humans.
+                </p>
+                <a href="#" class="close-btn"><i class="fa-solid fa-xmark"></i></a>
+            </div>
+        </div>
+        <div id="herbert-modal" class="modal">
+            <div class="modal-content">
+                <h3>Herbert</h3>
+                <p>
+                    Herbert oversees all things related to feline health and well-being. From behavior guides to wellness tips, his focus is on empowering cat parents with resources to provide the best care for their companions.
+                </p>
+                <a href="#" class="close-btn"><i class="fa-solid fa-xmark"></i></a>
+            </div>
+        </div>
+        <div id="mike-modal" class="modal">
+            <div class="modal-content">
+                <h3>Mike</h3>
+                <p>
+                    Mike is the driving force behind Purrfect Vibes' engaging blog posts, memes, and educational articles. His creative direction ensures our platform strikes the perfect balance of entertainment and information, keeping our audience coming back for more.
+                </p>
+                <a href="#" class="close-btn"><i class="fa-solid fa-xmark"></i></a>
+            </div>
+        </div>
+        <div id="ferris-modal" class="modal">
+            <div class="modal-content">
+                <h3>Ferris</h3>
+                <p>
+                    Ferris founded Purrfect Vibes with a vision to bring together a community of cat lovers. As a lifelong feline enthusiast, Ferris is dedicated to providing a platform that educates, entertains, and inspires. Under Ferris's leadership, Purrfect Vibes continues to grow as the ultimate destination for all things cat-related.
+                </p>
+                <a href="#" class="close-btn"><i class="fa-solid fa-xmark"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="container small careers-container">
+        <h2>Careers</h2>
+        <p>At Purrfect Vibes, we're always on the lookout for passionate cat enthusiasts and creative minds to join our growing team. Whether you're a content creator, community manager, or digital strategist, there's a place for you to help us spread pawsitive energy. Think you're the purrfect fit?<br><br>
+            <a href="mailto:hr@purrfectvibes.com?subject=MY RESUME&cc=herbert@purrfectvibes.com">Submit your resume today!</a></p>
+    </section>
+
+    <footer>
+        <div>
+            <a href="#"><img src="images/facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="images/instagram.svg" alt="Instagram"></a>
+            <a href="#"><img src="images/youtube.svg" alt="Youtube"></a>
+        </div>
+        <p>
+            Contact Us<br>
+            Purrfect Vibes<br>
+            123 Whisker Lane<br>
+            Catopia City, CA 90210<br>
+            Tel. (800) PURR-VIBES (800-787-7842)<br>
+        </p>
+    </footer>
+    <button id="back-to-top">↑ Back to Top</button>
+</body>
+</html>
