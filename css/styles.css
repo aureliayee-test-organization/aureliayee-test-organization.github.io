@@ -10,18 +10,22 @@ body, textarea {
     margin: 0;
     line-height: 1.4em;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .h1 {
     font-family: "Nanum Myeongjo", serif;
     font-weight: 400;
     font-style: normal;
 }
-h1 {
+h1, .h1 {
     font-size: 3rem;
     margin: 0;
 }
-h2 {
+h2, .h2 {
     margin-bottom: 32px;
     font-weight: 600;
+    text-align: center;
+    font-size: 1.8rem;
+
+
 }
 h3 {
     font-weight: 600;
@@ -36,9 +40,6 @@ a {
 }
 a:hover {
     opacity: 0.8;
-}
-h2 {
-    text-align: center;
 }
 img {
     width: 100%;
@@ -447,7 +448,7 @@ form input[type="checkbox"], form input[type="radio"] {
 form .inline-checkbox label {
     font-weight: 400;
 }
-input[type="submit"] {
+input[type="submit"], .contact-form button {
 	padding: 0 30px;
 	font-size: 11px;
 	font-weight: 600;
@@ -469,6 +470,12 @@ input[type="text"]:required, input[type="tel"]:required, input[type="email"]:req
 }
 input[type="text"]:valid, input[type="tel"]:valid, input[type="email"]:valid {
     border-color:green;
+}
+.contact-form form {
+    display: block;
+}
+.contact-form input {
+    margin-bottom: 10px;
 }
 /**Footer**/
 footer {
