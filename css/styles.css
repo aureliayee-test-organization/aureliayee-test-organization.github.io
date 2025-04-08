@@ -35,7 +35,7 @@ h3 {
     padding: 10px;
 }
 a {
-    color: #e6a563;
+    color: #222e50;
 }
 a:hover {
     opacity: 0.8;
@@ -148,6 +148,9 @@ body.home {
     padding: 20px;
     flex: auto;
     width: 32%;
+}
+.feature-block p {
+    margin-bottom: 10px;
 }
 .testimonials {
     background-color: #222e50;
@@ -495,7 +498,7 @@ footer img {
     bottom: 20px;
     right: 20px;
     background-color: #e6a563;
-    color: #fff;
+    color: #222e50;
     padding: 10px 15px;
     font-size: 14px;
     border: none;
@@ -508,6 +511,16 @@ footer img {
 
 #back-to-top:hover {
     background-color: #FFCF83;
+}
+
+.accessibility .features p {
+    font-size: 12px;
+}
+.accessibility a {
+    color: #e6a563;
+}
+.accessbility #back-to-top {
+    background-color: #e6a563;
 }
 /**Tablet Styles**/
 @media only screen and (max-width: 1040px) {
@@ -525,9 +538,7 @@ footer img {
         width: 40%;
     }
 }
-.accessibility .features p {
-    font-size: 12px;
-}
+
 
 /**Mobile Styles**/
 @media only screen and (max-width: 767px) {
