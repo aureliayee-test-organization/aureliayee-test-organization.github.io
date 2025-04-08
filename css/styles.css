@@ -525,6 +525,9 @@ footer img {
         width: 40%;
     }
 }
+.accessibility .features p {
+    font-size: 12px;
+}
 
 /**Mobile Styles**/
 @media only screen and (max-width: 767px) {
