@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="images/favicons/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Welcome to Purrfect Vibes!</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="js/scripts.js" defer></script>
+</head>
+<body class="accessibility">
+    <header>
+        <div class="container">
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <input type="checkbox" class="navToggler" id="navToggler">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="features.html">Features</a>
+                        <ul class="sub-menu">
+                            <li><a href="features.html#cat-care">Cat Care</a></li>
+                            <li><a href="features.html#quizzes">Quizzes</a></li>
+                            <li><a href="features.html#community">Community</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="community.html">Community</a></li>
+                    <li><a href="contact.html" class="button">Contact</a></li>
+                </ul>
+            </nav>
+            <label for="navToggler" class="navTogglerMenu" name="navToggler">
+                <img src="images/menu.svg" class="menuOpen" alt="menu">
+                <img src="images/x.svg" class="menuClose" alt="close">
+            </label>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-text">
+                <p class="h1">Welcome to Purrfect Vibes!</p>
+                <p>At Purrfect Vibes, we are dedicated to creating a haven for cat enthusiasts by delivering engaging, high-quality content and fostering a vibrant, supportive community.</p>
+            </div>
+            <img src="images/hero-cat.png">
+        </div>
+    </section>
+    <section class="features container">
+        <h4 class="h2">Our Features</h4>
+        <div class="feature-container">
+            <div class="feature-block">
+                <img src="images/cat-care.jpg" alt="cat care">
+                <h3>Cat Care Essentials</h3>
+                <p>Explore a wealth of resources on feline care, behavior, and wellness to ensure your cat leads a happy, healthy life.</p>
+                <a href="#">Read more</a>
+            </div>
+            <div class="feature-block">
+                <img src="images/cat-quizzes.jpg" alt="cat quizzes">
+                <h3>Purr-sonality Quizzes</h3>
+                <p>Have fun with quizzes like “What Cat Breed Matches Your Personality?” and discover your perfect feline counterpart.</p>
+                <a href="#">Read more</a>
+            </div>
+            <div class="feature-block">
+                <img src="images/cat-community.jpg" alt="cat community">
+                <h3>Interactive Community</h3>
+                <p>Participate in cat photo contests, share your stories, or ask experts in our “Ask the Vet” Q&A section.</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials">
+        <div class="container">
+            <h2>Cat Owner Testimonials</h2>
+            <div class="testimonial-container">
+                <div class="testimonial-block">
+                    Purrfect Vibes has transformed the way I care for my cat. Their tips and resources have been a game-changer for me and my tabby, Luna!<br><br>
+                    <strong>- Felicity Meowser</strong>
+                    Cat Mom Extraordinaire
+                </div>
+                <div class="testimonial-block">
+                    The quizzes are so much fun, and I've learned so much from the blog posts. Purrfect Vibes is my daily dose of feline joy!<br><br>
+                    <strong>- Whiskers Wilson</strong>
+                    Proud Owner of Mittens
+                </div>
+                <div class="testimonial-block">
+                    Thanks to Purrfect Vibes, I found the perfect toys for my kitten. She's never been happier!<br><br>
+                    <strong>- Paws Perkins</strong>
+                    First-Time Cat Owner
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- New Form Section -->
+    <section class="contact-form container">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+            
+            <!-- Missing label for email -->
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+            
+            <!-- Missing label for message -->
+            <textarea id="message" name="message" placeholder="Enter your message"></textarea>
+            
+            <!-- Missing 'type="submit"' -->
+            <button>Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div>
+            <a href="#"><img src="images/facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="images/instagram.svg" alt="Instagram"></a>
+            <a href="#"><img src="images/youtube.svg" alt="Youtube"></a>
+        </div>
+        <p>
+            Contact Us<br>
+            Purrfect Vibes<br>
+            123 Whisker Lane<br>
+            Catopia City, CA 90210<br>
+            Tel. (800) PURR-VIBES (800-787-7842)<br>
+        </p>
+    </footer>
+    <button id="back-to-top">↑ Back to Top</button>
+</body>
+</html>
