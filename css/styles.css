@@ -520,7 +520,7 @@ footer img {
     color: #e6a563;
 }
 .accessibility #back-to-top {
-    background-color: #e6a563;
+    color: #fff;
 }
 /**Tablet Styles**/
 @media only screen and (max-width: 1040px) {
